@@ -19,11 +19,11 @@
     <div class="navbar navbar-fixed-top navbar-inverse" style="background-color: rgba(0, 0, 0, 0.7);">
       <div class="container">
         <div class="navbar-header">
-          <a href="{{ site.baseurl }}" class="navbar-brand">Madison Software Academy</a>
+          <a href="{{ site.baseurl }}/" class="navbar-brand">Madison Software Academy</a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav pull-right">
-            <li><a href="{{ site.baseurl }}">Documentation</a></li>
+            <li><a href="{{ site.baseurl }}/">Documentation</a></li>
             <li><a href="">About</a></li>
             <li><a href="{{ site.baseurl }}/blog">Blog</a></li>
             <li><a href="" target="_blank">Sign Up</a></li>
@@ -36,7 +36,7 @@
         <div class="col-md-3">
           <ul id="menu" class="nav nav-list" data-spy="affix">
             <li class="nav-header">MSA DOCS</li>
-            <li data-section=""><a href="{{ site.baseurl }}">Home</a></li>
+            <li data-section=""><a href="{{ site.baseurl }}/">Home</a></li>
             <li class="nav-header">MODULES</li>
               {% for page in site.pages %}
               {% if page.title != 'Welcome' && page.title != 'Our Blog' %}
@@ -70,7 +70,7 @@
     <script type="text/javascript">
 
       var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-33987438-3']);
+      _gaq.push(['_setAccount', 'UA-changeme-3']);
       _gaq.push(['_trackPageview']);
 
       (function() {
