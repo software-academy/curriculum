@@ -7,7 +7,7 @@ Heroku
 ======
 ![logo](https://d1lpkba4w1baqt.cloudfront.net/heroku-logo-light-234x60.png)
 
-What Heroku is
+What it is
 ---
 [Heroku](http://heroku.com/) is the most widely used hosting platform for Ruby on Rails solutions. From their website:
 
@@ -17,7 +17,7 @@ What Heroku is
 
 It is [free to sign up](https://id.heroku.com/signup), free to host a basic app, and you only "pay as you grow".
 
-Why Heroku is important
+Why it is important
 ---
 
 With Heroku, you spend more of your time writing application code, and less of your time configuring and supporting a server.  Heroku is **widely** used in the Rails community and is the fastest way for you to deploy your test applications to the cloud.
