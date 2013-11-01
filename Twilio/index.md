@@ -6,18 +6,20 @@ title: Twilio
 Twilio
 ======
 
-Introduction
-------------
+Twilio is the bomb
 
-Markdown is a text-to-HTML conversion tool for web writers. Markdown
-allows you to write using an easy-to-read, easy-to-write plain text
-format, then convert it to structurally valid XHTML (or HTML).
 
-Thus, "Markdown" is two things: (1) a plain text formatting syntax;
-and (2) a software tool, written in Perl, that converts the plain text
-formatting to HTML. See the [Syntax][] page for details pertaining to
-Markdown's formatting syntax. You can try it out, right now, using the
-online [Dingus][].
+Why it is important
+---
 
-  [syntax]: /projects/markdown/syntax
-  [dingus]: /projects/markdown/dingus
+Phones.  The future is mobile and Twilio helps connect you with phones.
+
+How we teach it
+---
+
+We have a module that helps you communicate with SMS and phones, using **software**.
+
+Where you can learn more
+---
+
+Twilio probably has a good startup guide.
