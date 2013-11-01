@@ -7,8 +7,6 @@ Heroku
 ======
 ![logo](https://d1lpkba4w1baqt.cloudfront.net/heroku-logo-light-234x60.png)
 
-What it is
----
 [Heroku](http://heroku.com/) is the most widely used hosting platform for Ruby on Rails solutions. From their website:
 
 > Heroku (pronounced her-OH-koo) is a cloud application platform – a new way of building and deploying web apps.

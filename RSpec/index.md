@@ -6,9 +6,6 @@ title: RSpec
 RSpec
 =====
 
-What it is
----
-
 RSpec is ....
 
 Why it is important
