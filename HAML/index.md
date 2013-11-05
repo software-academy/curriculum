@@ -6,12 +6,16 @@ title: haml
 haml
 ===
 
-haml is a markup sytax that is whitespace sensitive.
+haml (HTML abstraction markup language) is a whitespace sensitive markup language. From their website:
+
+> Beautiful, DRY,
+well-indented, clear markup:
+templating haiku.
 
 Why important
 ---
 
-We think it's better than erb, because the constraints of whitespace sensitivity lead to faster reading.  And reading code is what the majority of our time is spent doing.
+We think haml better than erb, because the constraints of whitespace sensitivity lead to faster reading, and reading code is what the majority of our time is spent doing. Most importantly, we think it is good to know both haml and erb as you will likely run into both.
 
 How we teach it
 ---

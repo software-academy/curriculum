@@ -19,6 +19,7 @@ The lastest version of Twitter Bootstrap (v3) is built with a mobile first appro
 How we teach it
 ---
 
+Most of the applications you build in this course will utilize Twitter Bootstrap.  We've made it part of our default application template, so your practice applications will give you real experience with Bootstrap from the beginning.
 
 Learn more
 ---
