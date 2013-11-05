@@ -7,7 +7,7 @@ Airbrake
 ===
 
 <a href="http://airbrake.io">
-<img align="right" src="http://a0.twimg.com/profile_images/1729204184/Screen_Shot_2012-01-02_at_00.53.55.png" width="250" height="250" />
+  <img align="right" src="http://a0.twimg.com/profile_images/1729204184/Screen_Shot_2012-01-02_at_00.53.55.png" width="250" height="250" />
 </a>
 
 [Airbrake](http://airbrake.io/) is an exception reporting gem.  From their website:

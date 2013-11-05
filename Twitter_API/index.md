@@ -6,7 +6,7 @@ title: Twitter API
 Twitter API
 ===
 
-Devise is a widely used gem for user authentication.
+TODO
 
 Why important
 ---

@@ -7,7 +7,7 @@ Active Admin
 ===
 
 <a href="http://activeadmin.info">
-<img align="right" src="http://activeadmin.info/images/activeadmin.png" width="250" />
+  <img align="right" src="http://activeadmin.info/images/activeadmin.png" width="250" />
 </a>
 
 [ActiveAdmin](http://activeadmin.info/) is a framework for building administration pages for a Ruby on Rails website quickly. From the ActiveAdmin website:
