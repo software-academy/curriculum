@@ -20,7 +20,9 @@ We think haml better than erb, because the constraints of whitespace sensitivity
 How we teach it
 ---
 
-We start by having everyone use erb, since it is the default rails format.  However, once we move into more advanced topics, we introduce haml.  It's important to undertand both as you'll likely work on projects that use both.
+We start by having everyone use erb, since it is the default rails format.  However, once we move into more advanced topics, we introduce haml.  It's important to undertand both as you'll likely work on projects that use both erb and haml.
 
 Learn more
 ---
+
+There is a [haml tutorial](http://haml.info/tutorial.html) on the haml site.

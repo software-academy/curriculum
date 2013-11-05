@@ -6,6 +6,10 @@ title: GitHub and git
 GitHub and git
 ===
 
+<a href="http://github.com">
+  <img src="https://github.global.ssl.fastly.net/images/modules/logos_page/Octocat.png" width="250" align="right" />
+</a>
+
 [git](http://git-scm.com/) is the most widely used version control system today.
 
 GitHub is the leading cloud based host for git projects. It is [free to sign up](https://github.com) and free for an account with public repositories - which is all you need when you start out.
@@ -13,7 +17,7 @@ GitHub is the leading cloud based host for git projects. It is [free to sign up]
 Why important
 ---
 
-Almost all professional developers use git.  Knowing git becomes even more important when you work on complex projects with multiple developers.
+Most professional developers use git.  Knowing git becomes even more important when you work on complex projects with multiple developers.
 
 How we teach it
 ---

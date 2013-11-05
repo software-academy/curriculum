@@ -11,12 +11,14 @@ Devise
 Why important
 ---
 
-Mostly because of it's wide use.
+Mostly because of it's wide use and the fundamental importance of user authentication.
 
 How we teach it
 ---
 
-There is a specific module for implementing Devise.
+There is a specific module for implementing Devise, as well as Devise with OmniAuth. You'll learn the most common setup features.
+
+Almost all the later projects in this ciriculum include Devise as part of the solution.
 
 Learn more
 ---

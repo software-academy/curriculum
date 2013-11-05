@@ -6,6 +6,10 @@ title: Ember.js
 Ember.js
 ===
 
+<a href="http://emberjs.com">
+  <img src="http://blog.radixhound.com/assets/2012/6/25/emberjs.png" width="250" align="right" />
+</a>
+
 [Ember](http://emberjs.com/about/) is a javascript framework for "creating ambitious web applications" as they like to say.
 
 

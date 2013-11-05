@@ -18,7 +18,7 @@ Most complex web applications have a need for asyschronous processing.  Delayed 
 How we teach it
 ---
 
-You will use Delayed Job to send emails
+You will use Delayed Job to send emails in some of the sample projects.
 
 
 Learn more

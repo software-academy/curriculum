@@ -5,7 +5,11 @@ title: Heroku
 
 Heroku
 ======
-![logo](https://d1lpkba4w1baqt.cloudfront.net/heroku-logo-light-234x60.png)
+
+<a href="http://heroku.com">
+  <img src="https://d1lpkba4w1baqt.cloudfront.net/heroku-logo-light-234x60.png" width="250" align="right" />
+</a>
+
 
 [Heroku](http://heroku.com/) is the most widely used hosting platform for Ruby on Rails solutions. From their website:
 

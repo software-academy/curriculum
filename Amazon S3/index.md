@@ -6,6 +6,10 @@ title: Amazon AWS/S3
 Amazon AWS/S3
 ===
 
+<a href="http://aws.amazon.com/">
+<img align="right" src="https://images-na.ssl-images-amazon.com/images/G/01/webservices/aws_logo._V400518270_.png" width="250"  />
+</a>
+
 One service provided by Amazon Web Services (AWS) is [Amazon S3](http://aws.amazon.com/s3/).  S3 allows developers to store and retrieve data (such as images) in the cloud.
 
 

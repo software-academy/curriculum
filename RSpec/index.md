@@ -6,24 +6,20 @@ title: RSpec
 RSpec
 =====
 
-RSpec is ....
+RSpec is a behavior-driven development framework for the Ruby programming language.
 
 Why it is important
 ---
 
-Tets!...
+Tests!
 
 How we teach it
 ---
 
-We start with walking you through the test driven approach to creating the standard Rails blog app.
+We start with walking you through the test driven approach to creating the standard [Rails blog app](http://guides.rubyonrails.org/getting_started.html).
 
 Where you can learn more
 ---
 
 * [http://betterspecs.org/](http://betterspecs.org/)
-
-
-[![alt text][2]][1]
-  [1]: http://www.amazon.com/The-RSpec-Book-Behaviour-Development/dp/1934356379
-  [2]: http://ecx.images-amazon.com/images/I/51YUp7YfkKL._BO2,204,203,200_PIsitb-sticker-arrow-click,TopRight,35,-76_AA300_SH20_OU01_.jpg
+* The [RSpec Book](http://www.amazon.com/The-RSpec-Book-Behaviour-Development/dp/1934356379)

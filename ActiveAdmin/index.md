@@ -6,6 +6,10 @@ title: ActiveAdmin
 Active Admin
 ===
 
+<a href="http://activeadmin.info">
+<img align="right" src="http://activeadmin.info/images/activeadmin.png" width="250" />
+</a>
+
 [ActiveAdmin](http://activeadmin.info/) is a framework for building administration pages for a Ruby on Rails website quickly. From the ActiveAdmin website:
 
 > Active Admin is a Ruby on Rails plugin for generating administration style interfaces. It abstracts common business application patterns to make it simple for developers to implement beautiful and elegant interfaces with very little effort.
