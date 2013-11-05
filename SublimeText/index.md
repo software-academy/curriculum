@@ -6,8 +6,6 @@ title: Sublime Text
 Sublime Text
 ======
 
-TODO: Logo
-
 [Sublime Text](http://www.sublimetext.com/) is one of the most widely used text editors.  We think it is an excellent editor for beginning developers. From their website:
 
 > Sublime Text is a sophisticated text editor for code, markup and prose.

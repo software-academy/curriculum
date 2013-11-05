@@ -6,7 +6,7 @@ title: RSpec
 RSpec
 =====
 
-RSpec is a behavior-driven development framework for the Ruby programming language.
+RSpec is a behavior-driven development tool for the Ruby programming language.
 
 Why important
 ---

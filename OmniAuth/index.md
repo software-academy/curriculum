@@ -6,7 +6,7 @@ title: OmniAuth
 OmniAuth
 ===
 
-<a href="http://heroku.com">
+<a href="http://intridea.github.io/omniauth">
   <img src="http://intridea.github.io/omniauth/img/logo.png" width="250" align="right" />
 </a>
 

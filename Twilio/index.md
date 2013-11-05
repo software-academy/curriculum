@@ -6,9 +6,15 @@ title: Twilio
 Twilio
 ======
 
-TODO: Logo
+<a href="http://sendgrid.com">
+  <img src="https://static0.twilio.com/packages/company/img/logos_icon_round.png" width="100" align="right" />
+</a>
 
-Twilio is the bomb
+
+[Twilio](http://twilio.com) provides a simple API to let developers interact with phones via both SMS and Voice.  It's the bomb.
+
+
+> Communications power business. Twilio powers communications.
 
 
 Why important
