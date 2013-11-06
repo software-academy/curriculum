@@ -41,7 +41,7 @@
             <li class="nav-header">MSA DOCS</li>
             <li data-section=""><a href="{{ site.baseurl }}/">Home</a></li>
             <li class="nav-header">MODULES</li>
-              {% assign sorted_pages = site.pages | sort:"name" %}
+              {% assign sorted_pages = site.pages | sort: "url" %}
               {% for page in sorted_pages %}
               {% if page.title != 'Welcome' && page.title != 'Our Blog' %}
               <li>
