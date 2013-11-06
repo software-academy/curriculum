@@ -6,8 +6,6 @@ title: Stripe
 Stripe Payments
 ===
 
-TODO: ActiveMerchant?
-
 <a href="http://stripe.com">
   <img src="https://stripe.com/img/about/logos/logos/black.png" width="250" align="right" />
 </a>

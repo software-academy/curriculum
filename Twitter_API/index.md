@@ -7,7 +7,7 @@ Twitter API
 ===
 
 <a href="https://dev.twitter.com/">
-  <img src="https://g.twimg.com/Twitter_logo_blue.png" width="250" align="right" />
+  <img src="https://g.twimg.com/Twitter_logo_blue.png" width="200" align="right" />
 </a>
 
 

@@ -12,7 +12,7 @@ Simple Form
 Why important
 ---
 
-By utilizing the column defintion in the database, SimpleForm...TODO
+By leveraging the column defintion in the database, SimpleForm is a better way to do forms.  SimpleForm helps developers implement form best practices.
 
 
 How we teach it

@@ -5,6 +5,9 @@ title: Bootstrap
 
 Twitter Bootstrap
 ===
+<a href="http://dnsimple.com">
+  <img src="http://media02.hongkiat.com/twitter-bootstrap/twitter-bootstrap.jpg" width="250" align="right" />
+</a>
 
 Twitter Bootstrap is the most popular front-end framework utilized in the Ruby on Rails community. From their website:
 
@@ -24,3 +27,6 @@ Most of the applications you build in this course will utilize Twitter Bootstrap
 Learn more
 ---
 
+Bootstrap has an excellent [Getting started guide](http://getbootstrap.com/getting-started/).
+
+Ryan Bates has a [Twitter Bootstrap Basics Railscast](http://railscasts.com/episodes/328-twitter-bootstrap-basics).

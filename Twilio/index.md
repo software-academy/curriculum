@@ -7,7 +7,7 @@ Twilio
 ======
 
 <a href="http://sendgrid.com">
-  <img src="https://static0.twilio.com/packages/company/img/logos_icon_round.png" width="100" align="right" />
+  <img src="https://static0.twilio.com/packages/company/img/logos_icon_roundname.png" width="200" align="right" />
 </a>
 
 

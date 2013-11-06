@@ -10,7 +10,7 @@ CoffeeScript
   <img src="http://coffeescript.org/documentation/images/logo.png" align="right" width="250" />
 </a>
 
-[CoffeeScript[(http://coffeescript.org)] is a language that compiles into JavaScript. From the CoffeeScript website:
+[CoffeeScript](http://coffeescript.org) is a language that compiles into JavaScript. From the CoffeeScript website:
 
 > CoffeeScript is an attempt to expose the good parts of JavaScript in a simple way.
 
