@@ -40,7 +40,8 @@
 
 <h2>Machine setup on Linux</h2>
 
-<p>It is difficult to give step by step directions for setting up the environment on Linux, however, there are many articles on the web about Rails setup on Linux.  We also suggest connecting with a local <a href="http://www.meetup.com/find/?keywords=rails">Rails Meetup</a>.</p>
+<p>--
+It is difficult to give step by step directions for setting up the environment on Linux, however, there are many articles on the web about Rails setup on Linux.  We also suggest connecting with a local <a href="http://www.meetup.com/find/?keywords=rails">Rails Meetup</a>.</p>
 
 <h2>Machine setup on Mac OS X</h2>
 
@@ -48,26 +49,45 @@
 
 <p>Now, let’s start setting up your development environment.</p>
 
+<h3>Install Xcode from the app store.</h3>
+
 <ol>
-<li><p>Install Xcode from the app store.
-<a href="https://developer.apple.com/technologies/tools/">https://developer.apple.com/technologies/tools/</a></p></li>
-<li><p>Install Homebrew <a href="http://brew.sh/">http://brew.sh/</a></p></li>
-<li><p>Install Postgres
-$ brew install postgresql</p></li>
+<li><a href="https://developer.apple.com/technologies/tools/">https://developer.apple.com/technologies/tools/</a></li>
 </ol>
 
 
-<p>run the init.db command
-$ initdb /usr/local/var/postgres -E utf8</p>
+<h3>Install Homebrew</h3>
 
-<p>Install RVM
-$ \curl -L https://get.rvm.io | bash -s stable --ruby</p>
+<ol>
+<li><a href="http://brew.sh/">http://brew.sh/</a></li>
+<li>Ensure successful install by running <code>brew doctor</code> on the command line.</li>
+</ol>
 
-<p>Install git
-$ brew install git</p>
 
-<p>Install openssl
-$ brew install openssl</p>
+<h3>Install Postgres</h3>
+
+<ol>
+<li>On the command line, run <code>brew install postgresql</code></li>
+<li>Check location of psql <code>which psql</code>.  It should be <code>/usr/local/bin/psql</code>.</li>
+<li> TODO: Check path?</li>
+<li>View the commands you can use with psql by running <code>brew info postgres</code>.</li>
+<li>Initialize the database with <code>initdb /usr/local/var/postgres -E utf8</code></li>
+<li>You should see a command to start postgres with <code>pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start</code>. Run that to start postgres.</li>
+<li>Login to psql <code>psql template1</code>.  If that works, then use <code>/q</code> to exit.</li>
+</ol>
+
+
+<h3>Install RVM</h3>
+
+<p>RVM is a command-line tool which allows you to easily install, manage, and work with multiple ruby environments. On the command line, run <code>\curl -L https://get.rvm.io | bash -s stable --ruby</code></p>
+
+<h3>Install git</h3>
+
+<p><code>brew install git</code></p>
+
+<h3>Install openssl</h3>
+
+<p><code>brew install openssl</code></p>
 
         </div>
         <div class="col-md-3">
