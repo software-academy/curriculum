@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Madison Software Academy - Twitter API</title>
+    <title>Madison Software Academy - Machine Setup</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -34,25 +34,40 @@
     <div class="container">
       <div class="row">
         <div class="col-md-9">
-          <h1>Twitter API</h1>
+          <h1>Machine Setup</h1>
 
-<p><a href="https://dev.twitter.com/">
-  <img src="https://g.twimg.com/Twitter_logo_blue.png" width="200" align="right" />
-</a></p>
+<p>Our advice is to avoid installers. Thar be dragons.</p>
 
-<p><a href="https://dev.twitter.com/">Twitter API</a> is the way software developers create software that interacts with twitter.</p>
+<h2>Machine setup on Linux</h2>
 
-<h2>Why important</h2>
+<p>It is difficult to give step by step directions for setting up the environment on Linux, however, there are many articles on the web about Rails setup on Linux.  We also suggest connecting with a local <a href="http://www.meetup.com/find/?keywords=rails">Rails Meetup</a>.</p>
 
-<p>Mostly because of it's wide use and the excellent RESTful nature of it's design.</p>
+<h2>Machine setup on Mac OS X</h2>
 
-<h2>How we teach it</h2>
+<p>If you're not totally familiar with the basics of the command line, please read <a href="http://blog.teamtreehouse.com/introduction-to-the-mac-os-x-command-line">introduction to the Mac OS X command line</a>.</p>
 
-<p>A simple project that let's someone <a href="/OmniAuth/">authenticate with Twitter</a> and then post status updates to that user's Twitter timeline.</p>
+<p>Now, let’s start setting up your development environment.</p>
 
-<h2>Learn more</h2>
+<ol>
+<li><p>Install Xcode from the app store.
+<a href="https://developer.apple.com/technologies/tools/">https://developer.apple.com/technologies/tools/</a></p></li>
+<li><p>Install Homebrew <a href="http://brew.sh/">http://brew.sh/</a></p></li>
+<li><p>Install Postgres
+$ brew install postgresql</p></li>
+</ol>
 
-<p>Twitter has extensive information in their <a href="https://dev.twitter.com/start">Getting Started</a> guide.</p>
+
+<p>run the init.db command
+$ initdb /usr/local/var/postgres -E utf8</p>
+
+<p>Install RVM
+$ \curl -L https://get.rvm.io | bash -s stable --ruby</p>
+
+<p>Install git
+$ brew install git</p>
+
+<p>Install openssl
+$ brew install openssl</p>
 
         </div>
         <div class="col-md-3">
