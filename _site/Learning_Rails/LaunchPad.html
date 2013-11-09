@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Madison Software Academy - Machine Setup</title>
+    <title>Madison Software Academy - Lauchpad</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -41,60 +41,79 @@
     <div class="container">
       <div class="row">
         <div class="col-md-9">
-          <h1>Machine Setup</h1>
+          <h1>Lauchpad</h1>
 
-<p>Our advice is to avoid installers. Thar be dragons.</p>
+<p>Follow the directions below for setting up a launchpad folder.  This folder will hold the gemset that we’ll use for all the sample applications we build.  You’ll learn more about this later.</p>
 
-<h2>Machine setup on Linux</h2>
+<p>When following these directions, pay close attention to where you are when executing the lines below.  That’s important.</p>
 
-<p>It is difficult to give step by step directions for setting up the environment on Linux, however, there are many articles on the web about Rails setup on Linux.  We also suggest connecting with a local <a href="http://www.meetup.com/find/?keywords=rails">Rails Meetup</a>.</p>
+<p>In a terminal window, create a <code>/dev</code> folder TODO: more info on where.</p>
 
-<h2>Machine setup on Mac OS X</h2>
+<p><code>mkdir rails40</code></p>
 
-<p>If you're not totally familiar with the basics of the command line, please read <a href="http://blog.teamtreehouse.com/introduction-to-the-mac-os-x-command-line">introduction to the Mac OS X command line</a>.</p>
+<p><code>cd rails40</code></p>
 
-<p>Now, let’s start setting up your development environment.</p>
+<p>Next, we make a .rvmrc for the launchpad</p>
 
-<h3>Install Xcode from the app store.</h3>
+<p><code>echo "rvm use ruby-2.0.0-p247@rails4 --create" >> .rvmrc</code></p>
 
-<ol>
-<li><a href="https://developer.apple.com/technologies/tools/">https://developer.apple.com/technologies/tools/</a></li>
-</ol>
+<p>Next we cd out of this folder, then back into the folder.  This will execute the .rvmrc file asking if we want to trust it.  We do.</p>
 
+<p><code>cd ..</code></p>
 
-<h3>Install Homebrew</h3>
+<p><code>cd rails40</code></p>
 
-<ol>
-<li><a href="http://brew.sh/">http://brew.sh/</a></li>
-<li>Ensure successful install by running <code>brew doctor</code> on the command line.</li>
-</ol>
+<p>When you cd back into rails40, you’ll be asked to trust it.  Answer with a y.</p>
 
+<p>Next, let’s see what the rvm info says.</p>
 
-<h3>Install Postgres</h3>
+<p><code>rvm info</code></p>
 
-<ol>
-<li>On the command line, run <code>brew install postgresql</code></li>
-<li>Check location of psql <code>which psql</code>.  It should be <code>/usr/local/bin/psql</code>.</li>
-<li> TODO: Check path?</li>
-<li>View the commands you can use with psql by running <code>brew info postgres</code>.</li>
-<li>Initialize the database with <code>initdb /usr/local/var/postgres -E utf8</code></li>
-<li>You should see a command to start postgres with <code>pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start</code>. Run that to start postgres.</li>
-<li>Login to psql <code>psql template1</code>.  If that works, then use <code>/q</code> to exit.</li>
-<li>Run <code>ln -sfv /usr/local/opt/postgresql/*.plist ~/Library/LaunchAgents</code> so that postgres will start automatically.</li>
-</ol>
+<p>We will install rails 4.0</p>
 
+<p><code>gem install rails</code></p>
 
-<h3>Install RVM</h3>
+<p>We’re going to create a new rails app in this folder.  This ensures we’re using the rails 4.0 version.</p>
 
-<p>RVM is a command-line tool which allows you to easily install, manage, and work with multiple ruby environments. On the command line, run <code>\curl -L https://get.rvm.io | bash -s stable --ruby</code></p>
+<p><code>rails new foo -d postgresql</code></p>
 
-<h3>Install git</h3>
+<p>Next cd into the foo directory and setup a new .rvmrc file:</p>
 
-<p><code>brew install git</code></p>
+<p><code>cd foo</code></p>
 
-<h3>Install openssl</h3>
+<p><code>echo "rvm use ruby-2.0.0-p247@foo --create" > .rvmrc</code></p>
 
-<p><code>brew install openssl</code></p>
+<p>An aside, ‘>’ takes the output from the command on the left and shovels it into the thing on the right (deleting any existing file).  Using ‘>>’ instead of ‘>’ would append to an existing file (or create a new file if one doesn’t already exist).  In this case, we don’t want to append, we want to create, so that’s why we used a single ‘>’ sign.</p>
+
+<p>Back out of this folder and then cd back in.</p>
+
+<p><code>cd ..</code></p>
+
+<p><code>cd foo</code></p>
+
+<p>And then let’s bundle, which installs the gems.</p>
+
+<p><code>bundle</code></p>
+
+<p>We need to then create the postgres user.</p>
+
+<p><code>createuser -s foo</code></p>
+
+<p>To see what user you should create (or to change it), view config/database.yml in the app you just created.</p>
+
+<p>This assumes Postgres is running.  You can see the command for starting Postgres by running <code>rvm info postgres</code></p>
+
+<p>We then create the database.</p>
+
+<p><code>rake db:create</code></p>
+
+<p>And make sure we can run this app.</p>
+
+<p><code>rails s</code></p>
+
+<p>If this works, you’re awesome.  You can delete the foo directory now that you know the process we’ll use to create new apps.</p>
+
+<p>If not, consider deleting the foo folder and starting from scratch.  If you have other troubles, either google your errors, post in our forum, or email us and we’ll help you work through any sticking points.</p>
 
 
           <p>

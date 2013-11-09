@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Madison Software Academy - Machine Setup</title>
+    <title>Madison Software Academy - Text Editor</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -41,60 +41,13 @@
     <div class="container">
       <div class="row">
         <div class="col-md-9">
-          <h1>Machine Setup</h1>
+          <h1>Text Editor</h1>
 
-<p>Our advice is to avoid installers. Thar be dragons.</p>
+<p>If you already have a favorite text editor, stick with that.  If not, we recommend using <strong>Sublime</strong>.  It is powerful and easy to learn.</p>
 
-<h2>Machine setup on Linux</h2>
+<p><a href="http://www.sublimetext.com/2">Download sublime text here</a></p>
 
-<p>It is difficult to give step by step directions for setting up the environment on Linux, however, there are many articles on the web about Rails setup on Linux.  We also suggest connecting with a local <a href="http://www.meetup.com/find/?keywords=rails">Rails Meetup</a>.</p>
-
-<h2>Machine setup on Mac OS X</h2>
-
-<p>If you're not totally familiar with the basics of the command line, please read <a href="http://blog.teamtreehouse.com/introduction-to-the-mac-os-x-command-line">introduction to the Mac OS X command line</a>.</p>
-
-<p>Now, let’s start setting up your development environment.</p>
-
-<h3>Install Xcode from the app store.</h3>
-
-<ol>
-<li><a href="https://developer.apple.com/technologies/tools/">https://developer.apple.com/technologies/tools/</a></li>
-</ol>
-
-
-<h3>Install Homebrew</h3>
-
-<ol>
-<li><a href="http://brew.sh/">http://brew.sh/</a></li>
-<li>Ensure successful install by running <code>brew doctor</code> on the command line.</li>
-</ol>
-
-
-<h3>Install Postgres</h3>
-
-<ol>
-<li>On the command line, run <code>brew install postgresql</code></li>
-<li>Check location of psql <code>which psql</code>.  It should be <code>/usr/local/bin/psql</code>.</li>
-<li> TODO: Check path?</li>
-<li>View the commands you can use with psql by running <code>brew info postgres</code>.</li>
-<li>Initialize the database with <code>initdb /usr/local/var/postgres -E utf8</code></li>
-<li>You should see a command to start postgres with <code>pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start</code>. Run that to start postgres.</li>
-<li>Login to psql <code>psql template1</code>.  If that works, then use <code>/q</code> to exit.</li>
-<li>Run <code>ln -sfv /usr/local/opt/postgresql/*.plist ~/Library/LaunchAgents</code> so that postgres will start automatically.</li>
-</ol>
-
-
-<h3>Install RVM</h3>
-
-<p>RVM is a command-line tool which allows you to easily install, manage, and work with multiple ruby environments. On the command line, run <code>\curl -L https://get.rvm.io | bash -s stable --ruby</code></p>
-
-<h3>Install git</h3>
-
-<p><code>brew install git</code></p>
-
-<h3>Install openssl</h3>
-
-<p><code>brew install openssl</code></p>
+<p>And then <a href="http://www.youtube.com/watch?v=05x1Jk4rT1A">watch this great introduction</a> on how to configure Sublime.  Also, don't underestimate how important it is to learn how to be efficient with your text editor.  Reading and writing text files is the main activity of a software developer.</p>
 
 
           <p>

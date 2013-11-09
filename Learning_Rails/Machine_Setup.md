@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: rails
 title: Machine Setup
 ---
 
@@ -9,7 +9,6 @@ Machine Setup
 Our advice is to avoid installers. Thar be dragons.
 
 ## Machine setup on Linux
---
 It is difficult to give step by step directions for setting up the environment on Linux, however, there are many articles on the web about Rails setup on Linux.  We also suggest connecting with a local [Rails Meetup](http://www.meetup.com/find/?keywords=rails).
 
 ## Machine setup on Mac OS X
@@ -35,6 +34,7 @@ Now, let’s start setting up your development environment.
 1. Initialize the database with <code>initdb /usr/local/var/postgres -E utf8</code>
 1. You should see a command to start postgres with <code>pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start</code>. Run that to start postgres.
 1. Login to psql <code>psql template1</code>.  If that works, then use <code>/q</code> to exit.
+1. Run <code>ln -sfv /usr/local/opt/postgresql/*.plist ~/Library/LaunchAgents</code> so that postgres will start automatically.
 
 ### Install RVM
 RVM is a command-line tool which allows you to easily install, manage, and work with multiple ruby environments. On the command line, run <code>\curl -L https://get.rvm.io | bash -s stable --ruby</code>
