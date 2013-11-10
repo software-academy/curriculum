@@ -23,24 +23,24 @@ Now, let’s start setting up your development environment.
 ### Install Homebrew
 
 1. [http://brew.sh/](http://brew.sh/)
-2. Ensure successful install by running <code>brew doctor</code> on the command line.
+2. Ensure successful install by running `brew doctor` on the command line.
 
 
 ### Install Postgres
-1. On the command line, run <code>brew install postgresql</code>
-1. Check location of psql <code>which psql</code>.  It should be <code>/usr/local/bin/psql</code>.
+1. On the command line, run `brew install postgresql`
+1. Check location of psql `which psql`.  It should be `/usr/local/bin/psql`.
 666. TODO: Check path?
-1. View the commands you can use with psql by running <code>brew info postgres</code>.
-1. Initialize the database with <code>initdb /usr/local/var/postgres -E utf8</code>
-1. You should see a command to start postgres with <code>pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start</code>. Run that to start postgres.
-1. Login to psql <code>psql template1</code>.  If that works, then use <code>/q</code> to exit.
-1. Run <code>ln -sfv /usr/local/opt/postgresql/*.plist ~/Library/LaunchAgents</code> so that postgres will start automatically.
+1. View the commands you can use with psql by running `brew info postgres`.
+1. Initialize the database with `initdb /usr/local/var/postgres -E utf8`
+1. You should see a command to start postgres with `pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start`. Run that to start postgres.
+1. Login to psql `psql template1`.  If that works, then use `/q` to exit.
+1. Run `ln -sfv /usr/local/opt/postgresql/*.plist ~/Library/LaunchAgents` so that postgres will start automatically.
 
 ### Install RVM
-RVM is a command-line tool which allows you to easily install, manage, and work with multiple ruby environments. On the command line, run <code>\curl -L https://get.rvm.io | bash -s stable --ruby</code>
+RVM is a command-line tool which allows you to easily install, manage, and work with multiple ruby environments. On the command line, run `\curl -L https://get.rvm.io | bash -s stable --ruby`
 
 ### Install git
-<code>brew install git</code>
+`brew install git`
 
 ### Install openssl
-<code>brew install openssl</code>
+`brew install openssl`

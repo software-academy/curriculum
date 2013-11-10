@@ -55,7 +55,7 @@
 
 <p>Next, we make a .rvmrc for the launchpad</p>
 
-<p><code>echo "rvm use ruby-2.0.0-p247@rails4 --create" >> .rvmrc</code></p>
+<p><code>echo "rvm use ruby-2.0.0-p247@rails4 --create" &gt;&gt; .rvmrc</code></p>
 
 <p>Next we cd out of this folder, then back into the folder.  This will execute the .rvmrc file asking if we want to trust it.  We do.</p>
 
@@ -81,7 +81,7 @@
 
 <p><code>cd foo</code></p>
 
-<p><code>echo "rvm use ruby-2.0.0-p247@foo --create" > .rvmrc</code></p>
+<p><code>echo "rvm use ruby-2.0.0-p247@foo --create" &gt; .rvmrc</code></p>
 
 <p>An aside, ‘>’ takes the output from the command on the left and shovels it into the thing on the right (deleting any existing file).  Using ‘>>’ instead of ‘>’ would append to an existing file (or create a new file if one doesn’t already exist).  In this case, we don’t want to append, we want to create, so that’s why we used a single ‘>’ sign.</p>
 
