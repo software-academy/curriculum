@@ -5,7 +5,7 @@ title: Bootstrap
 
 Twitter Bootstrap
 ===
-<a href="http://dnsimple.com">
+<a href="http://getbootstrap.com">
   <img src="http://media02.hongkiat.com/twitter-bootstrap/twitter-bootstrap.jpg" width="250" align="right" />
 </a>
 

@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <!-- styles -->
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/syntax.css">
+    <link rel="stylesheet" href="/assets/syntax.css">
     <style>
       body { padding-top: 60px; /* 60px to make the container go all the way
       to the bottom of the topbar */ }
@@ -25,16 +25,16 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a href="{{ site.baseurl }}/" class="navbar-brand">Madison Software Academy</a>
+        <a href="/" class="navbar-brand">Madison Software Academy</a>
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav pull-right">
-          <li><a href="{{ site.baseurl }}/">Documentation</a></li>
+          <li><a href="/">Documentation</a></li>
           <li><a href="">About</a></li>
-          <li><a href="{{ site.baseurl }}/blog">Blog</a></li>
-          <li><a href="" target="_blank">Sign Up</a></li>
+          <li><a href="/blog">Blog</a></li>
+          <li><a href="/" target="_blank">Sign Up</a></li>
         </ul>
       </div><!-- /.navbar-collapse -->
     </nav>
@@ -46,13 +46,13 @@
         <div class="col-md-3">
           <ul id="menu" class="nav nav-list">
             <li class="nav-header">MSA DOCS</li>
-            <li data-section=""><a href="{{ site.baseurl }}/">Home</a></li>
+            <li data-section=""><a href="/">Home</a></li>
             <li class="nav-header">MODULES</li>
               {% assign sorted_pages = site.pages | sort: "url" %}
               {% for page in sorted_pages %}
               {% if page.title != 'Welcome' && page.title != 'Our Blog' %}
               <li>
-                <a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
+                <a href="{{ page.url }}">{{ page.title }}</a>
               </li>
               {% endif %}
               {% endfor %}
