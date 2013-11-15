@@ -7,7 +7,7 @@ Become a Rails Developer
 ===
 
 1. [Before You Start](Before_Starting.html)
-1. [Intro to Web Applications](How_Web_works.html)
+1. [Intro to Web Applications](How_Web_Works.html)
 1. [Configure Your machine](Machine_Setup.html)
 1. [Setup GIT](Git_Basics.html)
 1. [Setup Your Text Editor](Text_Editor.html)
