@@ -13,3 +13,5 @@ Become a Rails Developer
 1. [Setup Your Text Editor](Text_Editor.html)
 1. [Setup Your Web Presence](Web_Presence.html)
 1. [Setup LaunchPad](LaunchPad.html)
+1. [Ruby and Rails Basics](Rails_Basics.html)
+1. [Some Tricks](Tricks.html)
