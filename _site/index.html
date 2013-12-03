@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Madison Software Academy - Welcome</title>
+    <title>Madison Software Academy - Add posts#new view</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -41,9 +41,42 @@
     <div class="container">
       <div class="row">
         <div class="col-md-9">
-          <h1>Madison Software Academy</h1>
+          <h1 id="main">Add posts#new view</h1>
 
-<h3><code><a href="Learning_Rails/">Become a Rails Developer</a></code></h3>
+
+<h5>Update file <code>app/controllers/posts_controller.rb</code></h5>
+
+<p>Add</p>
+
+<pre><code>   def new
+   end</code></pre>
+
+
+<p>Becomes</p>
+
+<pre><code> class PostsController &lt; ApplicationController
+   def new
+   end
+ end
+</code></pre>
+
+
+<div class='section-break'></div>
+
+
+<p>Create file <code>app/views/posts/new.html.erb</code></p>
+
+<p>Add</p>
+
+<pre><code> &lt;h1&gt;New Post&lt;/h1&gt;</code></pre>
+
+
+<h3>Additional Resources</h3>
+
+<ul>
+<li><a href="https://github.com/stevenhallen/rails_getting_started_bdd/commit/70fbfd95b3bc29eac99dee41526eb1f28a8a9f1e">Changes in this step in <code>diff</code> format</a></li>
+</ul>
+
 
         </div>
         <div class="col-md-3">
@@ -80,6 +113,12 @@
               
               <li>
                 <a href="/CoffeeScript/index.html">CoffeeScript</a>
+              </li>
+              
+              
+              
+              <li>
+                <a href="/Curriculum.html">Curriculum</a>
               </li>
               
               
@@ -265,6 +304,10 @@
               </li>
               
               
+              
+              <li>
+                <a href="/index.html">Add posts#new view</a>
+              </li>
               
               
 
